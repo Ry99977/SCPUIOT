@@ -1,0 +1,9 @@
+[build]
+  publish = "dist"
+
+[[edge_functions]]
+  function = "users"
+  path = "/api/users"
+
+[[kv_namespaces]]
+  name = "iot_users"
